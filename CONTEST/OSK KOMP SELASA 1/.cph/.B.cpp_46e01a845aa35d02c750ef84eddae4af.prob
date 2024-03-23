@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"c:\\Users\\user\\Documents\\School\\Moscopic\\CONTEST\\OSK KOMP SELASA 1\\B.cpp","tests":[{"id":1710807461629,"input":"2\n3\n3 2 1\n6\n3 1 4 1 5 9","output":"3\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\user\\Documents\\School\\Moscopic\\CONTEST\\OSK KOMP SELASA 1\\B.cpp","group":"local","local":true}
