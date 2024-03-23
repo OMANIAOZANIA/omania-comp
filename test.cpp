@@ -6,5 +6,5 @@ using namespace std;
 
 int main() {
 	int a = ('a', 'z', 'A', 'Z');
-	cout << ("AA"<"AA");
+	cout << ("AA"<"AZ");
 }
