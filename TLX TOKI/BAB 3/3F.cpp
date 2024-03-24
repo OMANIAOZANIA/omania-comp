@@ -14,18 +14,13 @@ string nama[1005];
 
 int main() {
     cin >> n;
-    int prevAns;
     for (int i=0;i<n;i++) {
         cin >> nama[i];
-        if (i==0) {
-            cout << 1 << nl;
-            continue;
+
+        int ans=1;
+        for (int j=0;j<i;j++) {
+            if (nama[j] < nama[i]) ans++;
         }
-        prevAns=0;
-        int x=i;
-        while(x-- && nama[i]>nama[x]) {
-            prevAns++;
-        }
-        cout << prevAns+1 << nl;
+        cout << ans << nl;
     }
 }
